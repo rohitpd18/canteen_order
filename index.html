@@ -49,7 +49,13 @@
 
     <!-- Here all menu   -->
     <div class="container-fluid d-flex flex-wrap">
-        <div class="card m-auto my-3" style="width: 18rem;">
+        <div class="card m-auto my-3" onclick="select_order(this)" style="width: 18rem;">
+
+            <!-- it may be add in future -->
+
+            <div class="position-absolute  top-0 end-0"></div>
+
+
             <img src="https://pixabay.com/get/g46a72f24ef3c97b608f6e6179ce9652d34f3ccc8e333e4f422a113b9f8c5cebd11a7d8bf8610ce3ea2f861f33329409c_1280.jpg"
                 class="card-img-top" alt="...">
             <div class="card-body">
@@ -60,7 +66,12 @@
                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
         </div>
-        <div class="card m-auto my-3" style="width: 18rem;">
+
+        <div class="card menu_item m-auto my-3" onclick="select_order(this)" style="width: 18rem;">
+            <!-- it may be add in future -->
+
+            <div class="position-absolute  top-0 end-0"></div>
+
             <img src="https://pixabay.com/get/g46a72f24ef3c97b608f6e6179ce9652d34f3ccc8e333e4f422a113b9f8c5cebd11a7d8bf8610ce3ea2f861f33329409c_1280.jpg"
                 class="card-img-top" alt="...">
             <div class="card-body">
@@ -71,7 +82,10 @@
                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
         </div>
-        <div class="card m-auto my-3" style="width: 18rem;">
+        <div class="card menu_item m-auto my-3" onclick="select_order(this)" style="width: 18rem;">
+            <!-- it may be add in future -->
+
+            <div class="position-absolute  top-0 end-0"></div>
             <img src="https://pixabay.com/get/g46a72f24ef3c97b608f6e6179ce9652d34f3ccc8e333e4f422a113b9f8c5cebd11a7d8bf8610ce3ea2f861f33329409c_1280.jpg"
                 class="card-img-top" alt="...">
             <div class="card-body">
@@ -82,7 +96,10 @@
                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
         </div>
-        <div class="card m-auto my-3" style="width: 18rem;">
+        <div class="card menu_item m-auto my-3" onclick="select_order(this)" style="width: 18rem;">
+            <!-- it may be add in future -->
+
+            <div class="position-absolute  top-0 end-0"></div>
             <img src="https://pixabay.com/get/g46a72f24ef3c97b608f6e6179ce9652d34f3ccc8e333e4f422a113b9f8c5cebd11a7d8bf8610ce3ea2f861f33329409c_1280.jpg"
                 class="card-img-top" alt="...">
             <div class="card-body">
@@ -96,9 +113,26 @@
     </div>
 
 
+    <!-- order button -->
+    <div class="d-flex ">
+        <button type="button"
+            class="btn btn-primary w-100 btn-lg position-fixed bottom-0 start-50 translate-middle-x">Order <span
+                id="no_of_order" class="text-light"></span>
+        </button>
+    </div>
+
+
+
+
+
+    <!-- custom js -->
+    <script src="/js/index.js"></script>
+
+    <!-- boostrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+
 </body>
 
 </html>
